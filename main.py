@@ -36,8 +36,7 @@ url = "http://maps.google.com/maps?z=12&t=m&q=loc:"+lat+"+"+lng
 browser.get(url)
 
 
-WebDriverWait(browser, 10000).until(EC.presence_of_element_located((By.CLASS_NAME, "LCF4w")))
-
+WebDriverWait(browser, 100).until(EC.presence_of_element_located((By.CLASS_NAME, "LCF4w")))
 
 # Obtain the title of that place
 title = browser.find_element(By.CLASS_NAME, "LCF4w")
