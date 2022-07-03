@@ -15,7 +15,7 @@ options.add_argument('headless')
 # Create the webdriver object
 if platform.system()=="Windows":
     browser = webdriver.Chrome(
-        executable_path="C:\chromedriver_win32\chromedriver.exe", options=options)
+        executable_path="chromedriver.exe", options=options)
 
 elif platform.system()=="Darwin":
     browser = webdriver.Chrome(
