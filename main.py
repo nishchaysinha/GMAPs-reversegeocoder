@@ -1,10 +1,8 @@
 # Import the library Selenium
 from selenium import webdriver
-from selenium.webdriver.common.action_chains import ActionChains
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
-
 
 import platform
 
@@ -44,11 +42,3 @@ WebDriverWait(browser, 10000).until(EC.presence_of_element_located((By.CLASS_NAM
 # Obtain the title of that place
 title = browser.find_element(By.CLASS_NAME, "LCF4w")
 print(title.text)
-
-'''
-# Obtain the ratings of that place
-stars = browser.find_element(By.CLASS_NAME, "aMPvhf-fI6EEc-KVuj8d")
-print("The stars of restaurant are:", stars.text)
-print("\n")
-'''
-
