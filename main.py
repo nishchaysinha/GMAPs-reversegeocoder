@@ -1,6 +1,8 @@
 # Import the library Selenium
 from selenium import webdriver
 from selenium.webdriver.common.action_chains import ActionChains
+from selenium.webdriver.common.by import By
+
 import platform
 
 # Make browser open in background
@@ -8,7 +10,6 @@ options = webdriver.ChromeOptions()
 options.add_argument('headless')
 
 # Create the webdriver object
-
 if platform.system()=="Windows":
     browser = webdriver.Chrome(
         executable_path="C:\chromedriver_win32\chromedriver.exe", options=options)
@@ -19,8 +20,6 @@ elif platform.system()=="Darwin":
 
 else:
     print("Linux Detected, Currently Doesn't support Linux")
-
-
 
 
 # Obtain the Google Map URL
@@ -40,11 +39,10 @@ for i in range(len(url)):
 	browser.get(url[i])
 
 	# Obtain the title of that place
-	title = browser.find_element_by_class_name(
-		"x3AX1-LfntMc-header-title-title")
+	title = browser.find_element(By.CLASS_NAME, "x3AX1-LfntMc-header-title-title")
 	print(i+1, "-", title.text)
 
 	# Obtain the ratings of that place
-	stars = browser.find_element_by_class_name("aMPvhf-fI6EEc-KVuj8d")
+	stars = browser.find_element(By.CLASS_NAME, "aMPvhf-fI6EEc-KVuj8d")
 	print("The stars of restaurant are:", stars.text)
 	print("\n")
