@@ -15,7 +15,7 @@ options.add_argument('headless')
 # Create the webdriver object
 if platform.system()=="Windows":
     browser = webdriver.Chrome(
-        executable_path="chromedriver.exe", options=options)
+        executable_path="C:\chromedriver_win32\chromedriver.exe", options=options)
 
 elif platform.system()=="Darwin":
     browser = webdriver.Chrome(
@@ -24,20 +24,25 @@ elif platform.system()=="Darwin":
 else:
     print("Linux Detected, Currently Doesn't support Linux")
 
+lat="28.549819596259738"
+lng="77.3659236434599"
+
+lat=str(input("Laude 80 hazar ke shoes hai 80 hazar ke: "))
+lng=str(input("isme tera ghar chalejayenga: "))
 
 # Obtain the Google Map URL
-url = "https://www.google.com/maps/@28.5123109,77.3799704,14z/data=!3m1!4b1!4m5!3m4!1s0x390ce88db913c975:0xbbec271e3ce71be1!8m2!3d28.5110359!4d77.3941312"
+url = "http://maps.google.com/maps?z=12&t=m&q=loc:"+lat+"+"+lng
 
 
 # Open the Google Map URL
 browser.get(url)
 
 
-WebDriverWait(browser, 10000).until(EC.presence_of_element_located((By.CLASS_NAME, "lMbq3e")))
+WebDriverWait(browser, 10000).until(EC.presence_of_element_located((By.CLASS_NAME, "LCF4w")))
 
 
 # Obtain the title of that place
-title = browser.find_element(By.CLASS_NAME, "lMbq3e")
+title = browser.find_element(By.CLASS_NAME, "LCF4w")
 print(title.text)
 
 '''
