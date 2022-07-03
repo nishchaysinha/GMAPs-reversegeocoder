@@ -27,8 +27,8 @@ else:
 lat="28.549819596259738"
 lng="77.3659236434599"
 
-lat=str(input("Laude 80 hazar ke shoes hai 80 hazar ke: "))
-lng=str(input("isme tera ghar chalejayenga: "))
+lat=str(input("enter lat: "))
+lng=str(input("enter long: "))
 
 # Obtain the Google Map URL
 url = "http://maps.google.com/maps?z=12&t=m&q=loc:"+lat+"+"+lng
