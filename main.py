@@ -30,5 +30,9 @@ def reverseGeocoder(lat,lng):
     browser.get(url)
     WebDriverWait(browser, 100).until(EC.presence_of_element_located((By.CLASS_NAME, "LCF4w")))
     title = browser.find_element(By.CLASS_NAME, "LCF4w")
-    return title
 
+    return title.text
+
+x=reverseGeocoder("28.5758384", "77.320955")
+
+print(x)
