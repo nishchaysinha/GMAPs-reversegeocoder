@@ -33,6 +33,5 @@ def reverseGeocoder(lat,lng):
 
     return title.text
 
-x=reverseGeocoder("28.5758384", "77.320955")
-
+x=reverseGeocoder("17.380855791871582", "78.50671337782575")
 print(x)
