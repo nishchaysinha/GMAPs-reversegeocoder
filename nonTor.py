@@ -15,7 +15,7 @@ def reverseGeocoder(lat,lng):
     # Create the webdriver object
     if platform.system()=="Windows":
         browser = webdriver.Chrome(
-            executable_path="chromedriver.exe", options=options)
+            executable_path="drivers/chromedriver.exe", options=options)
 
     elif platform.system()=="Darwin":
         browser = webdriver.Chrome(
