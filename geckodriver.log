@@ -95,3 +95,130 @@ JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D l
 Exiting due to channel error.
 Exiting due to channel error.
 Exiting due to channel error.
+1657201808577	geckodriver	INFO	Listening on 127.0.0.1:60240
+1657201809087	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "60241" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4t/s4mgznb15kvg6zd4m9gm7yc00000gn/T/rust_mozprofile8CxAj7"
+*** You are running in headless mode.
+1657201809714	Marionette	INFO	Marionette enabled
+1657201809788	Marionette	INFO	Listening on port 60251
+WebDriver BiDi listening on ws://localhost:60241
+Read port: 60251
+2022-07-07 19:20:09.860 plugin-container[32227:488223] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:20:09.860 plugin-container[32227:488223] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-07 19:20:09.907 plugin-container[32227:488223] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:20:09.907 plugin-container[32227:488223] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-07 19:20:09.907 plugin-container[32227:488225] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:20:09.907 plugin-container[32227:488225] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657201809985	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4t/s4mgznb15kvg6zd4m9gm7yc00000gn/T/rust_mozprofile8CxAj7/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60241/devtools/browser/30d01294-7898-4869-895d-87a35de85188
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.R828DhdmLbM.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,pwd,dw,plm,log,b/am=gl2gMAUAAAAg/rt=j/d=1/rs=ACT90oGU7bzeMCPjRD1f9Tn5_D00_wvdRw, line 3303: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+1657202090497	geckodriver	INFO	Listening on 127.0.0.1:60367
+1657202091000	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "60368" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4t/s4mgznb15kvg6zd4m9gm7yc00000gn/T/rust_mozprofileDaNQAN"
+*** You are running in headless mode.
+1657202091610	Marionette	INFO	Marionette enabled
+1657202091685	Marionette	INFO	Listening on port 60376
+WebDriver BiDi listening on ws://localhost:60368
+Read port: 60376
+2022-07-07 19:24:51.800 plugin-container[32630:492354] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:24:51.800 plugin-container[32630:492354] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-07 19:24:51.820 plugin-container[32630:492354] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:24:51.820 plugin-container[32630:492354] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-07 19:24:51.821 plugin-container[32630:492385] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:24:51.821 plugin-container[32630:492385] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657202091946	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4t/s4mgznb15kvg6zd4m9gm7yc00000gn/T/rust_mozprofileDaNQAN/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60368/devtools/browser/47741b94-15b9-4bc7-b79f-7a9fd918c27f
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.R828DhdmLbM.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,pwd,dw,plm,log,b/am=gl2gMAUAAAAg/rt=j/d=1/rs=ACT90oGU7bzeMCPjRD1f9Tn5_D00_wvdRw, line 3303: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+Exiting due to channel error.
+Exiting due to channel error.
+Exiting due to channel error.
+1657203001778	geckodriver	INFO	Listening on 127.0.0.1:60890
+1657203002277	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "60891" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4t/s4mgznb15kvg6zd4m9gm7yc00000gn/T/rust_mozprofilefdV8Id"
+*** You are running in headless mode.
+1657203002906	Marionette	INFO	Marionette enabled
+1657203002977	Marionette	INFO	Listening on port 60901
+WebDriver BiDi listening on ws://localhost:60891
+Read port: 60901
+2022-07-07 19:40:03.071 plugin-container[33597:502597] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:40:03.071 plugin-container[33597:502597] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-07 19:40:03.096 plugin-container[33597:502597] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:40:03.096 plugin-container[33597:502597] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-07 19:40:03.096 plugin-container[33597:502629] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:40:03.096 plugin-container[33597:502629] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657203003176	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4t/s4mgznb15kvg6zd4m9gm7yc00000gn/T/rust_mozprofilefdV8Id/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:60891/devtools/browser/e56ee5e2-3921-4d06-b377-a4bf7363ffa9
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.R828DhdmLbM.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,pwd,dw,plm,log,b/am=gl2gMAUAAAAg/rt=j/d=1/rs=ACT90oGU7bzeMCPjRD1f9Tn5_D00_wvdRw, line 3303: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+Exiting due to channel error.
+Exiting due to channel error.
+[GFX1-]: Receive IPC close with reason=AbnormalShutdown
+Exiting due to channel error.
+1657203208171	geckodriver	INFO	Listening on 127.0.0.1:61033
+1657203208685	mozrunner::runner	INFO	Running command: "/Applications/Firefox.app/Contents/MacOS/firefox-bin" "--marionette" "-headless" "--remote-debugging-port" "61034" "--remote-allow-hosts" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/4t/s4mgznb15kvg6zd4m9gm7yc00000gn/T/rust_mozprofileyvyVEE"
+*** You are running in headless mode.
+1657203209380	Marionette	INFO	Marionette enabled
+1657203209447	Marionette	INFO	Listening on port 61041
+WebDriver BiDi listening on ws://localhost:61034
+Read port: 61041
+2022-07-07 19:43:29.558 plugin-container[33859:505422] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:43:29.558 plugin-container[33859:505422] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-07 19:43:29.578 plugin-container[33859:505422] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:43:29.578 plugin-container[33859:505422] nil host used in call to allowsAnyHTTPSCertificateForHost:
+2022-07-07 19:43:29.578 plugin-container[33859:505420] nil host used in call to allowsSpecificHTTPSCertificateForHost
+2022-07-07 19:43:29.578 plugin-container[33859:505420] nil host used in call to allowsAnyHTTPSCertificateForHost:
+1657203209660	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+[GFX1-]: RenderCompositorSWGL failed mapping default framebuffer, no dt
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/4t/s4mgznb15kvg6zd4m9gm7yc00000gn/T/rust_mozprofileyvyVEE/search.json.mozlz4", (void 0)))
+DevTools listening on ws://localhost:61034/devtools/browser/feba1fb1-f7bf-45c9-8e48-767ebf714a47
+JavaScript warning: https://www.google.com/maps/_/js/k=maps.m.en.R828DhdmLbM.2019.O/m=sc2,per,mo,lp,ep,ti,ds,stx,pwd,dw,plm,log,b/am=gl2gMAUAAAAg/rt=j/d=1/rs=ACT90oGU7bzeMCPjRD1f9Tn5_D00_wvdRw, line 3303: WEBGL_debug_renderer_info is deprecated in Firefox and will be removed. Please use RENDERER.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Texture has not been initialized prior to a partial upload, forcing the browser to clear it. This may be slow.
+JavaScript warning: , line 0: WebGL warning: texSubImage: Tex image TEXTURE_2D level 0 is incurring lazy initialization.

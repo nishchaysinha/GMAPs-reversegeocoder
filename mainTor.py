@@ -12,7 +12,7 @@ def url(lat, lng):
     return url
 
 def create_torbrowser_webdriver_instance():
-    tor_binary_path_driver =  '/Users/nishchaysinha/Applications/TorBrowser.app/Contents/MacOS/firefox'
+    tor_binary_path_driver =  '/Applications/Tor\ Browser.app/Contents/MacOS/firefox'
     geckodriver_path = 'drivers/geckodriver'
 
     os.popen(tor_binary_path_driver)
