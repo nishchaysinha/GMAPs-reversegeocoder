@@ -1,4 +1,3 @@
-# Import the library Selenium
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
@@ -7,12 +6,10 @@ import platform
 
 def reverseGeocoder(lat,lng):
 
-
-    # Make browser open in background
     options = webdriver.ChromeOptions()
     options.add_argument('headless')
 
-    # Create the webdriver object
+    # Created the webdriver object
     if platform.system()=="Windows":
         browser = webdriver.Chrome(
             executable_path="drivers/chromedriver.exe", options=options)
