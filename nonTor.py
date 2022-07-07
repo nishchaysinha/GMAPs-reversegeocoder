@@ -19,7 +19,8 @@ def reverseGeocoder(lat,lng):
             executable_path="/usr/local/bin/chromedriver", options=options)
 
     else:
-        print("Linux Detected, Currently Doesn't support Linux")
+        browser = webdriver.Chrome(
+            executable_path="drivers/chromedriver", options=options)
 
     # Obtain the Google Map URL
     url = "http://maps.google.com/maps?z=12&t=m&q=loc:"+lat+"+"+lng
