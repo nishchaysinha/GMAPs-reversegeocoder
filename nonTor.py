@@ -7,7 +7,7 @@ import platform
 def reverseGeocoder(lat,lng):
 
     options = webdriver.ChromeOptions()
-    options.add_argument('headless')
+    #options.add_argument('headless')
 
     # Created the webdriver object
     if platform.system()=="Windows":
@@ -31,5 +31,5 @@ def reverseGeocoder(lat,lng):
 
     return title.text
 
-x=reverseGeocoder("17.380855791871582", "78.50671337782575")
+x=reverseGeocoder("43.65484389813207", "-79.44570683593706")
 print(x)
